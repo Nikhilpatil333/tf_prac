@@ -12,5 +12,5 @@ resource "aws_s3_bucket" "bucket" {
 resource "aws_s3_object" "file" {
   bucket = aws_s3_bucket.bucket.id
   key    = "hello.txt"
-  source = "D:/DBDA/terrorform/hello.txt"
+  source = "./hello.txt"
 }
