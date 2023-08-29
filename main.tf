@@ -14,3 +14,4 @@ resource "aws_s3_object" "file" {
   key    = "hello.txt"
   source = "./hello.txt"
 }
+
